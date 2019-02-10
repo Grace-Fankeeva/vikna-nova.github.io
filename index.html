@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script src="js/bootstrap.js"></script>
+<link rel="shortcut icon" href="img/icon.png" type="image/png">
+	<link rel="stylesheet" href="css/bootstrap.css" type="text/css">
+	<link rel="stylesheet" href="css/media.css" type="text/css" media="all and (max-width:900px)">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+<script type="text/javascript" src="js/jquery.1.7.1.min.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function(){
+ 
+$('a[href^="#"]').bind("click", function(e){
+  var anchor = $(this);
+  $('html, body').stop().animate({
+   scrollTop: $(anchor.attr("href")).offset().top
+  }, 1000);
+  e.preventDefault();
+ });
+ return false;﻿
+		   });
+	</script>
+<!-- <link href="https://fonts.googleapis.com/css?family=Playfair+Display:700|Sintony:400,700" rel="stylesheet">  -->
+	<link rel="stylesheet" href="css/style.css" type="text/css">
+	<title>Викна-Нова</title>
+</head>
+<body>
+	<header id="header" class="header">
+		<div class="main-header">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-3">
+						<img class="logo" src="img/loogo.png" alt="Luxury Restaurant">
+					</div>
+					<div class="col-lg-6">
+						<nav>
+							<ul class="menu d-flex justify-content-between">
+								<li class="menu__item">
+									<a href="#onas">
+										О НАС
+									</a>
+								</li>
+								<li class="menu__item">
+									<a href="#part">
+										ПАРТНЕРЫ 
+									</a>
+								</li>
+								<li class="menu__item">
+									<a href="#prod">
+										ПРОДУКЦИЯ
+									</a>
+								</li>
+								<li class="menu__item">
+									<a href="#otz">
+										ОТЗЫВЫ
+									</a>
+								</li>
+								<li class="menu__item">
+									<a href="#cont">
+										КОНТАКТЫ
+									</a>
+								</li>
+								<li class="menu__item">
+									<a href="#adr">
+										АДРЕС
+									</a>
+								</li>
+							</ul>
+						</nav>
+					</div>
+					<div class="col-lg-3">
+						<button class="book cta d-flex justify-content-center">
+							<span class="book__icon"></span>
+							ДИЛЕРСКИЙ КАБИНЕТ
+						</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="offer">
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12">
+						<div class="title">
+							
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	<section id="call" class="call">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+
+					<div class="phone d-flex ml-auto mr-auto">
+						<div class="phone__text">
+							Региональный менеджер
+							<span class="yellow">
+								
+							</span>
+						</div>
+						<div class="phone__digits">
+							<a class="vod" href="tel:+380664690596">+3 8066 469 05 96</a><br>
+							<a href="tel:+380969456011">+3 8096 945 60 11</a>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="onas" class="about">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6">
+					<div class="history">
+						<h2 class="history__title">
+							О НАС
+						</h2>
+						<p class="history__text">
+							  Завод <b>«ВIКНА НОВА»</b> был основан в 2008 году и является одним из главных долгожителей в нашем регионе. Мы <b>крупнейший</b> производитель металлопластиковых конструкций в 
+<b>Запорожской области</b>, мощность производства состовляет около 300 конструкций в сутки. Это позволяет покрывать немалую площадь рынка, что подтверждает <b>карта</b> наших партнеров
+						</p>
+						<br>
+						<br>
+						<p class="history__text"> Ассортимент нашей продукции включает в себя:<ul type="disc" class="history__text">
+<li>Металлопластиковые окна</li>
+<li>Двери входные и межкомнатные</li>
+<li>Нестандартные конструкции (арочные, треугольные, трапециевидные, круглые, многоугольные)</li>
+<li>Конструкции могут быть выполнены, как стандартные белые, так и ламинированные</li>
+<li>Москитные сетки для окон и дверей</li>
+<li>Подоконники и отливы для окон</li>
+</ul>
+<br>
+<p class="history__text">Более подробные данные, Вы можете получить в нашей просчетской программе для 
+дилеров</b> наших партнеров</p></p>
+					</div>
+				</div>
+				<div class="col-lg-3">
+					<img src="img/map1.png" alt="">
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+
+
+	<section class="line-partners" id="part">
+		<div class="phone d-flex ml-auto mr-auto">
+						<div class="partner__text">
+							ПАРТНЕРЫ
+						</div>
+					</div>
+</section>
+
+	<section class="partners">
+		<wrapper>
+	<div id="dws-slider" class="carousel slide" data-ride="carousel">
+		<!--Показатели-->
+		<ol class="carousel-indicators">
+			<li data-target="#dws-slider" data-slide-to="0" class="active"></li>
+			<li data-target="#dws-slider" data-slide-to="1"></li>
+			<li data-target="#dws-slider" data-slide-to="2"></li>
+			<li data-target="#dws-slider" data-slide-to="3"></li>
+		</ol>
+
+		<!--Обертка для слайдов-->
+		<div class="carousel-inner" role="listbox">
+			<div class="item active"><img src="img/slider-11.jpg" alt="Картинка 1">
+				
+			</div>
+			<div class="item"><img src="img/slider-12.jpg" alt="Картинка 2">
+				
+			</div>
+			<div class="item"><img src="img/slider-13.jpg" alt="Картинка 3">
+				
+			</div>
+			<div class="item"><img src="img/slider-14.jpg" alt="Картинка 4">
+				
+			</div>
+		</div>
+
+		<!--Элементы управления-->
+		<a class="left carousel-control" href="#dws-slider" role="button" data-slide="prev">
+			<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+			<span class="sr-only">Previous</span>
+		</a>
+		<a class="right carousel-control" href="#dws-slider" role="button" data-slide="next">
+			<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+			<span class="sr-only">Next</span>
+		</a>
+	</div>
+</wrapper>
+<script>
+	$('.carousel').carousel({
+		interval: 6000
+	})
+</script>
+	</section>
+
+<section class="line-partners" id="prod">
+		<div class="phone d-flex ml-auto mr-auto">
+						<div class="partner__text">
+							ПРОДУКЦИЯ
+						</div>
+					</div>
+</section>
+
+			<section id="special" class="special">
+		<div class="container">
+
+			<div class="row">
+				<div class="col-lg-12">
+					
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-lg-6">
+					<div class="food">
+						<img src="img/wds8.jpg" alt="Dish 1" class="food__img img-fluid">
+						<h3 class="food__title">
+							WDS 8 SERIES
+						</h3>
+						<p class="food__desc">
+							Шестикамерная профильная система, созданная, чтобы сберечь тепло и комфорт вашего дома. Энергосберегающая, инновационная система обеспечивает наилучшую теплоизоляцию, поэтому она идеально подходит для остекления домов, требующих дополнительной изоляции. Окна WDS 8 SERIES – это лучшее решение для тех, кто знает толк в энергосбережении, простой и надежный путь сбережения комфорта и уюта дома. 
+						</p>
+					</div>
+				</div>
+				<div class="col-lg-6">
+					<div class="food">
+						<img src="img/wds7.jpg" alt="Dish 1" class="food__img img-fluid">
+						<h3 class="food__title">
+							WDS 7 SERIES
+						</h3>
+						<p class="food__desc">
+							WDS 7 SERIES – это уникальная 6-камерная профильная система, не имеющая аналогов в Украине. Формула WDS 7 SERIES – 70/40/6. 70 мм – монтажная ширина профильной системы, делает ее негромоздкой, но теплосберегающей; 40 мм – максимальная ширина стеклопакета, которым может комплектоваться система; и, наконец, 6 – именно столько камер в профиле WDS 7 SERIES, три из которых находятся с наружной стороны. Размещение армирующего профиля за тремя камерами обеспечивает лучшую защиту от промерзаний.
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+	<section id="special1" class="special">
+		<div class="container">
+
+			<div class="row">
+				<div class="col-lg-12">
+					
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-lg-6">
+					<div class="food1">
+						<img src="img/wds500.jpg" alt="Dish 1" class="food__img1 img-fluid">
+						<h3 class="food__title1">
+							WDS 500
+						</h3>
+						<p class="food__desc1">
+							  WDS 500 – пятикамерная профильная система – оптимальный выбор для типового и объектного строительства. Повышенные изоляционные свойства, устойчивость и надежность конструкции, элегантный дизайн и простота в уходе – то, что придется по вкусу любому потребителю. Окна можно устанавливать в любых помещениях, офисах, торговых центрах, домах и квартирах. 
+						</p>
+					</div>
+				</div>
+				<div class="col-lg-6">
+					<div class="food1">
+						<img src="img/wds400.jpg" alt="Dish 1" class="food__img1 img-fluid">
+						<h3 class="food__title1">
+							WDS 400
+						</h3>
+						<p class="food__desc1">
+							WDS 400 – четырехкамерная профильная система, оптимальный выбор для потребителей. В окнах, изготовленных из профиля WDS 400, есть все, что необходимо современному потребителю. Хорошая тепло- и шумоизоляция, надежная защита от ветра и сквозняков, классический дизайн и простота в эксплуатации. Окна WDS 400 подходят для установки в любом помещении. 
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+
+<section id="special2" class="special">
+		<div class="container">
+
+			<div class="row">
+				<div class="col-lg-12">
+					
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-lg-6">
+					<div class="food2">
+						<img src="img/wds-gal.jpg" alt="Dish 1" class="food__img2 img-fluid">
+						<h3 class="food__title2">
+							WDS GALAXY
+						</h3>
+						<p class="food__desc2">
+							   Профиль WDS Galaxy – сочетание отличного дизайна, прочности и экономичности – новинка  в линейке продукции компании МИРОПЛАСТ. Окна из этого профиля станут удачным вложением, разумной экономией средств и украшением внешнего вида Вашего дома. Это – достойная альтернатива 4-камерным профилям. Данная система позволяет установить не только стеклопакеты шириной 24 или 32 мм, но и одинарное стекло толщиной 4 мм.
+						</p>
+					</div>
+				</div>
+				<div class="col-lg-6">
+					<div class="food2">
+						<img src="img/wds-mil.jpg" alt="Dish 1" class="food__img2 img-fluid">
+						<h3 class="food__title2">
+							WDS MILENIUM
+						</h3>
+						<p class="food__desc2">
+							Профиль WDS Millenium представляют бюджетный сектор металлопластиковых систем. Заказ этих светопрозрачных конструкций доступен по стоимости даже при масштабном остеклении. 
+  Окна  WDS Millenium станут идеальной основой для благоустройства балконов, лоджий, замены или установки новых оконных блоков в частном жилье, офисах, различных учреждениях.
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="line-partners" id="otz">
+		<div class="phone d-flex ml-auto mr-auto">
+						<div class="partner__text">
+							ОТЗЫВЫ
+						</div>
+					</div>
+</section>
+
+<section class="services" id="">
+	<div class="center">
+		<ul>
+			<li>
+				<span>ЧП Панасенко М. В. г. Бердянск, ул. Греческая, 18:</span>
+				<p>"Сотрудничаем, с данной компанией с 2011года, вседа приветливые менеджеры, своевременное оповещение о каких либо изменениях, с указанием времени и даты, достойное качество изделий, особенно радуют двери"</p>
+			</li>
+			<li>
+				<span>ЧП Резниченко, Запорожье:</span>
+				<p>"Сотрудничаем с заводом «Викна Нова» уже 3 года, это один из немногих оконных заводов с которым хочется сотрудничать. Всегда адекватная цена и отличный срок поставки окон в сезон. Хочу отметить менеджера Лилию, очень внимательная, всегда на связи, что не мало важно"</p>
+			</li>
+			<li>
+				<span>Сергей, "Тепле Віконце". Запорожье:</span>
+				<p>"С производственным предприятием "Вікна Нова" мы сотрудничаем более 5 лет. Это было бы не возможно если бы отсутствовали факторы доверия и взаимопонимания, очень важные моменты для партнёрства. Персонал компании создаёт комфортные условия для совместной работы, а отличительной чертой "Вікна Нова" является оптимальное соотношение цены и качества выпускаемой продукции"</p>
+			</li>
+			</ul>
+				<div class="big">
+				<span >Наталья, ЧП Дармобит, Камыш-Зоря:</span>
+				<p>"Работаем с заводом Викна Нова с 2014года, за этот период времени завод зарекомендовал себя как хороший поставщик металопластиковых конструкций: качественный материал+ хорошая сборка конструкций, а также гибкая ценовая политика ( от бюджетного варианта до премиум класса) дают конкурентные преимущества для работы в данной области.А также хочу отметить хорошие профессиональные навыки в работе сотрудников Викна Нова, всегда помогут в решении любых вопросов, и их индивидуальный подход к дилерам делает работу с ними лёгкой и удобной"</p></div>
+		
+	</div>
+</section>
+
+
+
+
+<div class="contacts" id="adr">
+	<div class="center">
+		<section class="line-partners">
+		<div class="phone d-flex ml-auto mr-auto">
+						<div class="partner__text">
+						АДРЕС
+						</div>
+					</div>
+		</section>
+		<div class="google_map"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2683.8615167753364!2d35.53250054492275!3d47.725936819261925!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40dc53c6efeef08b%3A0xc409eed041d9bea3!2sHorkoho+St%2C+Komyshuvakha%2C+Zaporiz&#39;ka+oblast%2C+70531!5e0!3m2!1sen!2sua!4v1549811948367" width="100%" height="400" frameborder="0" style="border:0" allowfullscreen></iframe></div>
+	</div>
+</div>
+<section class="line-partners" id="cont">
+		<div class="phone d-flex ml-auto mr-auto">
+						<div class="partner__text">
+							КОНТАКТЫ
+						</div>
+					</div>
+		</section>
+
+		<section class="managers">
+			<div class="phone-man"><span class="name">Региональный менежер</span><br>
+<a href="tel:+380664690596">+3 8066 469 05 96</a><br>
+<a href="tel:+38096945 6011">+3 8096 945 60 11</a><br>
+<span class="fam">Лилия Викторовна</span></div>
+			<div class="phone-man"><span class="name">Отдел заказов</span><br>
+<a href="tel:+380984378383">+3 8098 437 83 83</a><br>
+<a href="tel:+380661941464">+3 8066 194 14 64</a><br> 
+<span class="fam">Елена Юрьевна</span></div>
+			<div class="phone-man"><span class="name">Отдел рекламации</span><br>
+<a href="tel:+380988445763">+3 8098 844 57 63</a><br>
+<a href="tel:+380661618262">+3 8066 161 82 62</a><br>
+<span class="fam">Дмитрий</span></div>
+			<div class="phone-man"><span class="name">Отдел логистики</span><br>
+<a href="tel:+380984378384">+3 8098 437 83 84</a><br>
+<a href="tel:+380661113212">+3 8066 111 32 12</a><br>
+<span class="fam">Елена Владимировна</span></div>
+			<div class="phone-man"><span class="name">Бухгалтерия</span><br>
+<a href="tel:+380984198997">+3 8098 419 89 97</a><br>
+<a href="tel:+380664054706">+3 8066 405 47 06</a><br>
+<span class="fam">Яна Витальевна</span></div>
+<img class="logo-down" src="img/logo-down-01.png" alt="">
+		</section>
+
+	<!-- <footer id="footer" class="footer">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-4">
+					<div class="line"></div>
+				</div>
+				<div class="col-lg-4">
+					<div class="credits">
+						Copyright © 2019 Викна Нова. Все права защищены.
+					</div>
+				</div>
+				<div class="col-lg-4">
+					<div class="line"></div>
+				</div>
+			</div>
+		</div>
+	</footer> -->
+</body>
+</html>
